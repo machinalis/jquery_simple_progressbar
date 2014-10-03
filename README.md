@@ -17,7 +17,7 @@ Include the .js file, and then just do:
 Or personalize your progressbar with options:
 
 ```javascript
-    $('#an_element').simple_progressbar({'height': '50px', showValue: false, value: 75});
+    $('#an_element').simple_progressbar({'height': '50px', value: 75});
 ```
 
 Available Options
