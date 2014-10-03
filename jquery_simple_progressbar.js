@@ -7,7 +7,7 @@
       backgroundColor: "#EEEEEE",
       height: '20px',
       width: '200px',
-      showValue: true,
+      showValue: false,
       internalPadding: '1px',
       value: undefined,
       valueText: undefined,
