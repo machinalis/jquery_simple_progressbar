@@ -46,6 +46,7 @@
       outer_div.css('width', settings.width);
 
       inner_div.css('height', '100%');
+      inner_div.css('white-space', 'nowrap');
       if (value <= 100) {
         inner_div.css('background-color', settings.normalColor);
         inner_div.css('width', value.toString() + '%');
