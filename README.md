@@ -35,3 +35,5 @@ Available Options
 | internalPadding (default '1px')     | the spacing between the background and the actual bar                           |
 | showValue (default false)           | true to show the value of the progress inside the bar                           |
 | valueText (no default value)        | something to show inside the bar instead of the actual value                    |
+
+And worth mentioning, you can style the text of the values using css, just point to the container selector.
