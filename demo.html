@@ -1,0 +1,90 @@
+<html>
+<head>
+    <title>Jquery Simple ProgressBar Demo</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/machinalis/jquery_simple_progressbar/master/jquery_simple_progressbar.js"></script>
+</head>
+<body>
+
+<div style="padding: 50px; font-family: verdana">
+    <h2>Jquery Simple ProgressBar Demo</h2>
+
+    <div id="example1">75</div>
+    <pre>$('#simplest-bar').simple_progressbar(); // the value (75) was readed rom the div text</pre>
+    <script>
+        $('#example1').simple_progressbar();
+    </script>
+
+    <br />
+    <br />
+    <br />
+
+    <div id="example2"></div>
+    <pre>$('#example2').simple_progressbar({value: 25, showValue: true});</pre>
+    <script>
+        $('#example2').simple_progressbar({value: 25, showValue: true});
+    </script>
+
+    <br />
+    <br />
+    <br />
+
+    <div id="example3"></div>
+    <pre>$('#example3').simple_progressbar({value: 25, showValue: true, valueText: 'too low!'});</pre>
+    <script>
+        $('#example3').simple_progressbar({value: 25, showValue: true, valueText: 'too low!'});
+    </script>
+
+    <br />
+    <br />
+    <br />
+
+    <div id="example4"></div>
+    <pre>$('#example4').simple_progressbar({value: 115});</pre>
+    <script>
+        $('#example4').simple_progressbar({value: 115});
+    </script>
+
+    <br />
+    <br />
+    <br />
+
+    <div id="example5"></div>
+    <pre>
+$('#example5').simple_progressbar({value: 80, 
+                                   height: '5px',
+                                   internalPadding: '3px',
+                                   normalColor: '#0767BA',
+                                   backgroundColor: '#C5D7EB'});
+    </pre>
+    <script>
+        $('#example5').simple_progressbar({value: 80, 
+                                           height: '5px',
+                                           internalPadding: '3px',
+                                           normalColor: '#0767BA',
+                                           backgroundColor: '#C5D7EB'});
+    </script>
+
+    <br />
+    <br />
+    <br />
+
+    <div id="example6">75</div>
+    <pre>
+function updateExample6() {
+    $('#example6').simple_progressbar({value: parseInt(Math.random() * 100 + 20)});
+    setTimeout(updateExample6, 500);
+};
+setTimeout(updateExample6, 500);
+    </pre>
+    <script>
+        function updateExample6() {
+            $('#example6').simple_progressbar({value: parseInt(Math.random() * 100 + 20)});
+            setTimeout(updateExample6, 500);
+        };
+        setTimeout(updateExample6, 500);
+    </script>
+
+</div>
+
+</body>
