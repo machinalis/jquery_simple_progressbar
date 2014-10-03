@@ -8,7 +8,7 @@ Super simple progressbar, from 0 to 100, as a jQuery plugin.
 Usage
 -----
 
-Just do:
+Include the .js file, and then just do:
 
 ```javascript
     $('#an_element').simple_progressbar();
