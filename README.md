@@ -3,7 +3,7 @@ jQuery Simple Progressbar
 
 Super simple progressbar, from 0 to 100, as a jQuery plugin.
 
-[Demo!](https://cdn.rawgit.com/machinalis/jquery_simple_progressbar/master/demo.html)
+[Demo!](https://rawgit.com/machinalis/jquery_simple_progressbar/master/demo.html)
 
 Usage
 -----
