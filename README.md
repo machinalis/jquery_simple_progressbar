@@ -30,8 +30,8 @@ Available Options
 | normalColor (default "#76E29C")     | the color of the actual bar, when the progress is between 0 and 100             |
 | overflowColor (default "#E67373")   | the color of the actual bar when the progress is above 100 ("ovefrlow")         |
 | backgroundColor (default "#EEEEEE") | the color of the background behind the bar                                      |
-| height (default '20px')             | the height of the full bar (background included)                                |
-| width (default '200px')             | the width of the full bar (background included)                                 |
+| height (default '20px')             | the height of the bar (no background included)                                  |
+| width (default '200px')             | the width of the bar (no background included)                                   |
 | internalPadding (default '1px')     | the spacing between the background and the actual bar                           |
 | showValue (default true)            | true to show the value of the progress inside the bar                           |
 | valueText (no default value)        | something to show inside the bar instead of the actual value                    |
