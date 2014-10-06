@@ -26,7 +26,7 @@ Available Options
 
 | Option                              | Description                                                                     |
 | ----------------------------------- | ------------------------------------------------------------------------------- |
-| value (no default value)            | progress value. If not providedit will use the text of the DOM element as value |
+| value (no default value)            | progress value. If not provided it will use the text of the DOM element as value|
 | normalColor (default "#76E29C")     | the color of the actual bar, when the progress is between 0 and 100             |
 | overflowColor (default "#E67373")   | the color of the actual bar when the progress is above 100 ("ovefrlow")         |
 | backgroundColor (default "#EEEEEE") | the color of the background behind the bar                                      |
